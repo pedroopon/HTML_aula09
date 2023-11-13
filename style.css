@@ -1,0 +1,41 @@
+h1{
+    color: blueviolet;
+}
+
+@media (max-width: 450px){
+    .classetexto{
+        color: chocolate;
+
+    }
+}
+
+@media (max-width: 730px){
+    .classetextoo{
+        color: rgb(12, 139, 12);
+    }
+}
+
+@media (max-width:  729px) and (min-width: 510px){
+    .classetexto{
+        color: darkturquoise;
+    }
+    .classetextoo{
+        color: darkolivegreen;
+        font-size: 29px;
+    }
+    .classbody{
+        background-color: black;
+    }
+}
+
+@media (max-width: 1500px){
+    .classvideo{
+text-align: center;
+  }
+
+}
+
+.classvideo{
+    border-radius: 70px;
+    width: 70%;
+}
